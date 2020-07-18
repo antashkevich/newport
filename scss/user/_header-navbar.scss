@@ -1,0 +1,90 @@
+.nav {
+    position: static;
+}
+.navbar {
+    position: absolute;
+    top: -2px;
+    right: 10px;
+    box-shadow: none;
+    padding: 0;
+    .nav-item {
+        svg {
+            width: 13px;
+            height: 11px;
+        }
+        .nav-link {
+            font-family: $font-family-sans-serif-bold;
+            color: $regal-blue;
+            line-height: 1.3;
+            &:hover {
+                color: $waikawa-grey;
+            }
+        }
+    }
+}
+
+.navbar-toggler {
+    display: flex;
+    padding: 5px;
+    svg {
+        width: 17px;
+        height: 14px;
+    }
+}
+
+.sub-menu {
+    position: static;
+    a {
+        font-family: $font-family-sans-serif-bold;
+        color: $regal-blue;
+        line-height: 1.3;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        &:hover {
+            color: $waikawa-grey;
+        }
+    }
+}
+
+.shop-block {
+    position: absolute;
+    top: 62px;
+    right: 13px;
+    .shop-favorites {
+        svg {
+            width: 22px;
+            height: 20px;
+        }
+    }
+    .shop-cart {
+        position: relative;
+        svg {
+            width: 26px;
+            height: 23px;
+        }
+        span {
+            font-family: $font-family-sans-serif-bold;
+            font-size: $small-text;
+            color: $white;
+            width: 18px;
+            height: 18px;
+            border-radius: $border-radius-circle;
+            background-color: $royal-blue;
+            position: absolute;
+            right: 3px;
+            top: -4px;
+        }
+    }
+}
+
+@media all and (min-width: 576px) {
+    .shop-block {
+        position: static;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .navbar {
+        position: static;
+    }
+}

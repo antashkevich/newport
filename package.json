@@ -1,0 +1,45 @@
+{
+  "name": "varkala_theme",
+  "title": "Varkala - Bootstrap 4 E-commerce Theme",
+  "version": "1.1.0",
+  "description": "",
+  "homepage": "https://themes.getbootstrap.com/product/varkala-e-commerce-theme/",
+  "author": "Bootstrapious - https://bootstrapious.com",
+  "contact": "hello@bootstrapious.com",
+  "bugs": "",
+  "keywords": [],
+  "contributors": [
+    "Ondrej Svestka <hello@bootstrapious.com>"
+  ],
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.4.1",
+    "bootstrap-select": "^1.13.12",
+    "imagesloaded": "^4.1.4",
+    "jquery": "^3.3.1",
+    "jquery-parallax.js": "^1.5.0",
+    "jquery-zoom": "^1.7.21",
+    "jquery.cookie": "^1.4.1",
+    "malihu-custom-scrollbar-plugin": "^3.1.5",
+    "masonry-layout": "^4.2.2",
+    "nouislider": "^13.1.5",
+    "object-fit-images": "^3.2.4",
+    "photoswipe": "^4.1.3",
+    "smooth-scroll": "^16.1.0",
+    "swiper": "^5.2.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "chalk": "^2.4.2",
+    "del": "^3.0.0",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cdnizer": "^2.0.2",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-npm-dist": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

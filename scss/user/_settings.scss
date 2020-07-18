@@ -1,0 +1,44 @@
+html {
+    font-size: $font-size-base;
+}
+
+body {
+    font-family: $font-family-base;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-text {
+    color: $link-grey;
+    line-height: 1.47;
+    position: relative;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background-image: linear-gradient(to right, $link-grey 50%, rgba(255,255,255,0) 50%);
+        background-position: bottom;
+        background-size: 4px 1px;
+        background-repeat: repeat-x;
+    }
+    &:hover {
+        color: $link-green;
+        &:before {
+            background-image: linear-gradient(to right, $link-green 50%, rgba(255,255,255,0) 50%);
+        }
+    }
+}
