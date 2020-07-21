@@ -78,7 +78,8 @@ $colors: map-merge((
 @else if $templateColour == sea and not $primary {
   $primary:  #3D7582;
 }
-@else if $templateColour == violet and not $primary {
+
+@else if $templateColour == blue and not $primary {
   $primary:  #9a6ee2;
 }
 
@@ -358,3 +359,5 @@ $border-radius-none: 0 !default;
 
 $font-family-sans-serif: 'Geom-Reg', sans-serif !default;
 $font-family-sans-serif-bold: 'Geom-Bold', sans-serif !default;
+
+
